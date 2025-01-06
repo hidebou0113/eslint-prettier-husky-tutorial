@@ -15,7 +15,7 @@
         // "semi":["always"],
          "no-unused-vars":["off"],
         // "camelcase":["warn"]
-        "linebreak-style":["off"],
+        "linebreak-style":["off"]
 
     },
     "extends":["airbnb-base"]

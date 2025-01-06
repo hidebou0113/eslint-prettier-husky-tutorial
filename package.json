@@ -6,7 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint app.js",
     "fix": "eslint --fix app.js",
-    "format": "prettier --wite app.js"
+    "format": "prettier --wite app.js",
+    "prepare": "husky install"
+  },
+  "lint-staged":{
+    "*.js":[
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "keywords": [],
   "author": "",
